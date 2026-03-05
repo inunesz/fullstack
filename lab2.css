@@ -79,4 +79,15 @@ footer {
     text-align: center;
     padding: 15px;
     font-family: "Comic Sans MS";
+    background-color: #f5deb3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+      
+
+}
+
+p{
+    color:darkmagenta
 }
