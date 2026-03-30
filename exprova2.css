@@ -1,0 +1,82 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Pseudo-classe */
+nav a:hover {
+    color: yellow;
+}
+
+/* Título com ID */
+#titulo {
+    margin: 0;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+}
+
+/* Classe imagens */
+.imagens img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Links */
+.links ul {
+    list-style-type: square;
+}
+
+/* Tabela */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Efeito hover na tabela */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

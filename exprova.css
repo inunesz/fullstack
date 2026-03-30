@@ -1,0 +1,70 @@
+/* Menu */
+.navegacao {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+.navegacao a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Pseudo-classe */
+.navegacao a:hover {
+    color: lightgreen;
+}
+
+/* Blocos de conteúdo */
+.bloco {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Classe extra */
+.destaque {
+    border-left: 5px solid green;
+}
+
+/* Hover */
+.bloco:hover {
+    background-color: #dfe9f3;
+}
+
+/* Imagens */
+.imagens {
+    display: flex;
+    gap: 20px;
+}
+
+/* Vídeo */
+.video {
+    margin-top: 15px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ccc;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
