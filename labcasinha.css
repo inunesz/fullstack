@@ -1,8 +1,8 @@
 body {
-    background-color: #dff5f0; /* fundo */
+    background-color: #dff5f0; 
     display: flex;
-    justify-content: center;  /* centraliza horizontal */
-    align-items: center;      /* centraliza vertical */
+    justify-content: center; 
+    align-items: center;      
     height: 100vh;
     margin: 0;
 }
