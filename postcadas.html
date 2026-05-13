@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Criar Post</title>
+    <link rel="stylesheet" href="stylepost.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Novo Post</h1>
+
+        <form action="/cadastra_post" method="POST">
+
+            <input
+                type="text"
+                name="titulo"
+                placeholder="Título"
+                required
+            >
+
+            <input
+                type="text"
+                name="resumo"
+                placeholder="Resumo"
+                required
+            >
+
+            <textarea
+                name="conteudo"
+                placeholder="Conteúdo"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Publicar
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
