@@ -1,0 +1,35 @@
+body{
+    background-color: #dbeafe;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
